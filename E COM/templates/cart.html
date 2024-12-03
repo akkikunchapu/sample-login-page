@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Royal Shop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart-page">
+        <h2>Your Cart</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Example Product Rows -->
+                <tr>
+                    <td>Product 1</td>
+                    <td>$10.00</td>
+                    <td>2</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>$15.00</td>
+                    <td>1</td>
+                    <td>$15.00</td>
+                </tr>
+                <!-- Dynamically generated rows go here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong>Grand Total:</strong></td>
+                    <td><strong>$35.00</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="checkout">
+            <button class="pay-now">Pay Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Royal Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
